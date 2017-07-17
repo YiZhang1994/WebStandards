@@ -1,0 +1,227 @@
+body {
+    background-color: transparent;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li, .footer_list li {
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: Helvetica Arial;
+}
+
+
+
+/*responsive design*/
+@media screen and (max-width: 600px){
+    .navbar li, .footer_list li {
+        float: none;
+    }
+}
+
+
+
+.bg {
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: auto;
+}
+
+h1 {
+    color: black;
+    font-family: Helvetica Arial;
+    font-size: 2em;
+    word-spacing: 0.5em;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 2px beige;
+    padding-top: 0.2em;
+}
+
+h2 {
+    font-size: 3em;
+    letter-spacing: 0.2em;
+}
+
+.container {
+    color: black;
+    text-align: center;
+    font-family: Helvetica Arial;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.container a {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.footer_list {
+    text-align: center;
+
+}
+
+.footer_list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer_list li a {
+    display: block;
+    color: black;
+    font-size: 0.8em;
+    text-align: center;
+    text-decoration: none;
+    font-family: Helvetica Arial;
+}
+
+.copyrights{
+
+    padding: 10px 20px;
+    font-size:0.6em;
+    overflow:hidden;
+    color: black;
+    text-align: center;
+    font-family: Helvetica Arial;
+}
+
+#vertical_main {
+    width: 100%;
+    height: auto;
+}
+
+.nav_left {
+    float:left;
+    width: 0;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+.nav_content {
+    float:left;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.content {
+    font-family: Helvetica;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 130%;
+}
+
+
+
+
+h3 {
+    font-family: Helvetica;
+    color: cornflowerblue;
+    font-size: 1.25em;
+    padding: 0 0 0.2em 0;
+    margin: 0.2em 0;
+}
+
+
+
+#about_bg {
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    overflow: hidden;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+}
+
+#a1 {
+    font-family: Helvetica Arial;
+    font-weight: bold;
+    font-size: 2em;
+    color: coral;
+}
+
+#a2 {
+    font-family: Helvetica Arial;
+    font-size: 2em;
+    color: cadetblue;
+}
+
+#a3 {
+    font-family:  Helvetica Arial;
+    font-size: 2em;
+    color: darkcyan;
+}
+
+#a4 {
+    font-family:  Helvetica Arial;
+    font-size: 2em;
+    color: darkorange;
+}
+
+#a5 {
+    font-family:  Helvetica Arial;
+    font-size: 2em;
+    color: darksalmon;
+    font-weight: bolder;
+}
+
+#a6 {
+    font-family:  Helvetica Arial;
+    font-size: 2em;
+    color: darkseagreen;
+}
+
+.table p {
+    text-align: justify;
+    font-size: small;
+}
+
+.faq_content {
+    float: left;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+h4 {
+    font-family: Helvetica;
+    color: black;
+    font-size: 1.1em;
+}
+
+/*.video_content {
+    width: 40em;
+    height: 30em;
+}*/
+
+
+
+
+
+
+

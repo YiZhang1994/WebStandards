@@ -1,0 +1,336 @@
+@font-face {
+    font-family: DancingScript-Regular;
+    src: url("font/DancingScript-Regular.otf");
+}
+
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url("font/SourceSansPro-Bold.otf");
+}
+
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url("font/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+    font-family: Exo-SemiBold;
+    src: url("font/Exo-SemiBold.otf");
+}
+
+@font-face {
+    font-family: GoodDog;
+    src: url("font/GoodDog.otf");
+}
+
+@font-face {
+    font-family: MontserratAlternates-Bold;
+    src: url("font/MontserratAlternates-Bold.otf");
+}
+
+@font-face {
+    font-family: AllerDisplay;
+    src: url("font/AllerDisplay.ttf");
+}
+
+@font-face {
+    font-family: Amatic-Bold;
+    src: url("font/Amatic-Bold.ttf");
+}
+
+
+body {
+    background-color: gray;
+}
+
+
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darksalmon;
+    border-style: none;
+    border-radius: 0.2em;
+}
+
+.navbar li, .footer_list li {
+    float: left;
+    padding: 5px 20px;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-family: SourceSansPro-Bold;
+}
+
+.navbar li a:hover:not(.active) {
+    border-style: none;
+    border-radius: 0.2em;
+    background-color: dimgray;
+}
+
+.active {
+    background-color: skyblue;
+    border-style: none;
+    border-radius: 0.2em;
+}
+
+/*responsive design*/
+@media screen and (max-width: 600px){
+    .navbar li, .footer_list li {
+        float: none;
+    }
+}
+
+
+
+.bg {
+    background-image: url("images/bgpicture.jpg");
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: auto;
+}
+
+h1 {
+    color: white;
+    font-family: DancingScript-Regular;
+    font-size: 2em;
+    word-spacing: 0.5em;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 0.2em;
+}
+
+h2 {
+    font-size: 3em;
+    letter-spacing: 0.2em;
+}
+
+.container {
+    padding: 50px 50px;
+    color: lightsalmon;
+    text-align: center;
+    font-family: Amatic-Bold;
+    font-size: 1.5em;
+    word-spacing: 0.3em;
+    letter-spacing: 0.05em;
+    font-weight: 200;
+}
+
+.container a {
+    background-color: cornflowerblue;
+    font-size: 1em;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 0.2em;
+    color: white;
+}
+
+.container a:hover {
+    background-color: black;
+}
+
+.footer_list {
+    margin: auto;
+    text-align: center;
+}
+
+.footer_list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer_list li a {
+    display: block;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-family: SourceSansPro-Regular;
+}
+
+.copyrights{
+
+    padding: 10px 20px;
+    font-size:0.6em;
+    overflow:hidden;
+    color: white;
+    text-align: center;
+    font-family: SourceSansPro-Regular;
+}
+
+#vertical_main {
+    width: 100%;
+    height: auto;
+    margin: 1em 0.5em 0.5em 0.5em;
+}
+
+.nav_left {
+    float:left;
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+}
+
+.nav_left ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 5% 0 0 5%;
+}
+
+.nav_left ul li {
+    background-color: darkgray;
+    padding: 10px 10px;
+    text-align: center;
+    border-style: none;
+    border-radius: 3%;
+}
+
+.nav_left ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-family: SourceSansPro-Bold;
+    padding: 0.2em 0.5em;
+}
+
+.nav_left ul li a:hover {
+    background-color: black;
+}
+
+.nav_content {
+    float:left;
+    width: 78%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 2%;
+}
+
+.content {
+    margin: 2em 3em;
+    font-family: Helvetica;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 130%;
+}
+
+
+
+
+h3 {
+    font-family: Helvetica;
+    color: cornflowerblue;
+    font-size: 1.25em;
+    padding: 0 0 0.2em 0;
+    margin: 0.2em 0;
+}
+
+
+
+#about_bg {
+    background-image: url("images/aboutbg.jpg");
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+}
+
+#a1 {
+    font-family: DancingScript-Regular;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: coral;
+}
+
+#a2 {
+    font-family: GoodDog;
+    font-size: 3em;
+    color: cadetblue;
+}
+
+#a3 {
+    font-family: AllerDisplay;
+    font-size: 3em;
+    color: darkcyan;
+}
+
+#a4 {
+    font-family: Exo-SemiBold;
+    font-size: 3em;
+    color: darkorange;
+}
+
+#a5 {
+    font-family: Amatic-Bold;
+    font-size: 3.2em;
+    color: darksalmon;
+    font-weight: bolder;
+}
+
+#a6 {
+    font-family: MontserratAlternates-Bold;
+    font-size: 3em;
+    color: darkseagreen;
+}
+
+.table p {
+    text-align: justify;
+}
+
+.faq_content {
+    float: left;
+    width: auto;
+    height: auto;
+    background-color: white;
+    overflow: visible;
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 5%;
+    margin: 1em 2em 2em 3em;
+    padding: 2em;
+    text-align: center;
+}
+
+h4 {
+    font-family: Helvetica;
+    color: black;
+    font-size: 1.1em;
+    padding: 2em 1em 0.5em 1em;
+}
+
+.video_content {
+    width: 40em;
+    height: 30em;
+}
+
+
+
+
+
+
+
